@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>JAM'S Barber</title>
+
+
+
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#0f0f0f;
+    color:white;
+    text-align:center;
+}
+
+/* profe, esta seccion la hice para q cada parte ocupara la pantalla completa,tuve q 
+buscarlo ya q no sabia como hacerlo, gracias por entender */
+section{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px 20px;
+}
+
+
+.hero{
+    background-image:
+        url("fondo.jpg.jpg"); 
+
+    background-size:cover;
+    background-position:center;
+}
+
+
+.hero h1{
+    font-size:60px;
+    margin:0;
+}
+
+
+.hero h2{
+    color:#c9a86a;
+    margin-bottom:25px;
+}
+
+
+.botones{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
+.btn{
+    background-color:#c9a86a;
+    color:black;
+    padding:12px 25px;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+
+.servicios{ background-color:#0f0f0f; }
+.sobre{ background-color:#1a1a1a; }
+.contacto{ background-color:#0f0f0f; }
+
+
+footer{
+    background-color:black;
+    padding:20px;
+}
+
+
+</style>
+</head>
+
+
+
+
+
+<body>
+
+
+<section id="inicio" class="hero">
+
+    <h1>JAM'S BARBER</h1>
+
+    <h2>El corte que habla por ti</h2>
+
+    <div class="botones">
+
+        <a href="#servicios" class="btn">Servicios</a>
+
+        <a href="#sobre" class="btn">Sobre nosotros</a>
+
+        <a href="#contacto" class="btn">Contacto</a>
+
+        <a href="#contacto" class="btn">Agendar cita</a>
+
+    </div>
+</section>
+
+
+
+
+<section id="servicios" class="servicios">
+    <h2>Servicios</h2>
+
+    <h3>Corte clásico</h3>
+    <p>$25.000</p>
+
+    <h3>Barba</h3>
+    <p>$15.000</p>
+
+    <h3>Corte + Barba</h3>
+    <p>$35.000</p>
+
+    <a href="#inicio" class="btn">Inicio</a>
+</section>
+
+
+
+
+
+<section id="sobre" class="sobre">
+
+    <h2>Sobre nosotros</h2>
+
+    <p>Somos una barbería especializada en cortes modernos y clásicos.</p>
+
+
+    <a href="#inicio" class="btn">Inicio</a>
+
+</section>
+
+
+
+
+
+<section id="contacto" class="contacto">
+
+    <h2>Contacto</h2>
+
+    <p>📞 +57 304 392 8321</p>
+
+    <p>📍 Circular 1 # 70-01</p>
+
+    <p>🕒 Lunes a Viernes 9AM - 8PM</p>
+
+    <a href="#inicio" class="btn">Inicio</a>
+
+</section>
+
+
+
+
+<footer>
+
+    © 2026 JAM'S Barber
+    
+</footer>
+
+</body>
+</html>
